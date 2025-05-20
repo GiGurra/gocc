@@ -173,7 +173,7 @@ func TestFilterAwayOwnIPs(t *testing.T) {
 func TestGetInstanceList(t *testing.T) {
 	_, err := GetInstanceList()
 	if err != nil {
-		// Can't really run this test automated. Needs a kubernetes enviornment
+		// Can't really run this test automated. Needs a kubernetes environment
 		slog.Error(fmt.Sprintf("Error getting instance list: %v", err))
 	}
 
