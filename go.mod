@@ -1,8 +1,6 @@
 module github.com/gigurra/gocc
 
-go 1.24.2
-
-toolchain go1.24.3
+go 1.24.3
 
 require (
 	github.com/GiGurra/boa v0.3.15
