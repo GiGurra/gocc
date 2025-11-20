@@ -8,8 +8,8 @@ require (
 	github.com/google/go-cmp v0.7.0
 	github.com/google/uuid v1.6.0
 	github.com/labstack/echo/v4 v4.13.4
-	github.com/samber/lo v1.50.0
-	github.com/samber/slog-echo v1.16.1
+	github.com/samber/lo v1.51.0
+	github.com/samber/slog-echo v1.18.0
 	github.com/spf13/cobra v1.10.1
 	github.com/valyala/fasthttp v1.68.0
 	golang.org/x/net v0.46.0
