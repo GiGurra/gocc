@@ -1,5 +1,7 @@
 github.com/GiGurra/boa v0.3.15 h1:JOkd8Op1ctvsvGjPem1ZE8Li2eXJ/Epg/mEiA+lcsDo=
 github.com/GiGurra/boa v0.3.15/go.mod h1:w/K5cXEblqdimBWb4oP2lB1XS8D3L7LYCdUy03EEkmM=
+github.com/GiGurra/boa v0.3.31 h1:39h6REk4C8R1+hmYLQEBAOBMummeIDAE2aXPod4/CXk=
+github.com/GiGurra/boa v0.3.31/go.mod h1:alF0PXOSHVqHEp7r15QfBdvtFVH7+xhpOzb5zamahCM=
 github.com/andybalholm/brotli v1.1.1 h1:PR2pgnyFznKEugtsUo0xLdDop5SKXd5Qf5ysW+7XdTA=
 github.com/andybalholm/brotli v1.1.1/go.mod h1:05ib4cKhjx3OQYUY22hTVd34Bc8upXjOLL2rKwwZBoA=
 github.com/andybalholm/brotli v1.2.0 h1:ukwgCxwYrmACq68yiUqwIWnGY0cTPox/M94sVwToPjQ=

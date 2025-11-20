@@ -3,7 +3,7 @@ module github.com/gigurra/gocc
 go 1.24.3
 
 require (
-	github.com/GiGurra/boa v0.3.15
+	github.com/GiGurra/boa v0.3.31
 	github.com/fsnotify/fsnotify v1.9.0
 	github.com/google/go-cmp v0.7.0
 	github.com/google/uuid v1.6.0
