@@ -10,7 +10,7 @@ require (
 	github.com/labstack/echo/v4 v4.13.4
 	github.com/samber/lo v1.52.0
 	github.com/samber/slog-echo v1.18.0
-	github.com/spf13/cobra v1.10.1
+	github.com/spf13/cobra v1.10.2
 	github.com/valyala/fasthttp v1.68.0
 	golang.org/x/net v0.47.0
 )
