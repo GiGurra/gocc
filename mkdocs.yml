@@ -1,0 +1,60 @@
+site_name: GoCC
+site_url: https://gigurra.github.io/gocc/
+site_description: In-memory rate limiter service with FIFO queueing
+repo_url: https://github.com/GiGurra/gocc
+repo_name: GiGurra/gocc
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - search.highlight
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+
+nav:
+  - Home: index.md
+  - Guide:
+    - Getting Started: guide/getting-started.md
+    - Configuration: guide/configuration.md
+    - Queueing: guide/queueing.md
+  - Design:
+    - Architecture: design/architecture.md
+    - Actor Model: design/actor-model.md
+    - Performance: design/performance.md
+  - Operations:
+    - Deployment: operations/deployment.md
+    - Kubernetes: operations/kubernetes.md
+    - Monitoring: operations/monitoring.md
+  - API:
+    - Endpoints: api/endpoints.md
+    - Response Codes: api/response-codes.md
