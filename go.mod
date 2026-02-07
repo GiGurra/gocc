@@ -1,16 +1,16 @@
 module github.com/gigurra/gocc
 
-go 1.24.3
+go 1.25
 
 require (
-	github.com/GiGurra/boa v0.3.31
+	github.com/GiGurra/boa v0.4.0
 	github.com/fsnotify/fsnotify v1.9.0
 	github.com/google/go-cmp v0.7.0
 	github.com/google/uuid v1.6.0
 	github.com/labstack/echo/v4 v4.13.4
 	github.com/samber/lo v1.52.0
 	github.com/samber/slog-echo v1.18.0
-	github.com/spf13/cobra v1.10.1
+	github.com/spf13/cobra v1.10.2
 	github.com/valyala/fasthttp v1.68.0
 	golang.org/x/net v0.47.0
 )
@@ -22,7 +22,7 @@ require (
 	github.com/labstack/gommon v0.4.2 // indirect
 	github.com/mattn/go-colorable v0.1.14 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
-	github.com/spf13/pflag v1.0.9 // indirect
+	github.com/spf13/pflag v1.0.10 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.2 // indirect
 	go.opentelemetry.io/otel v1.35.0 // indirect
